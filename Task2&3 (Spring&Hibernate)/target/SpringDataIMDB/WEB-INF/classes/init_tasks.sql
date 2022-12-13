@@ -1,0 +1,13 @@
+INSERT INTO `books` (`id`, `title`, `year`) VALUES (1, 'Midnights', 2022);
+INSERT INTO `authors` (`id`, `first_name`, `last_name`) VALUES (1, 'Taylor', 'Swift');
+INSERT INTO `authors` (`id`, `first_name`, `last_name`) VALUES (2, 'Jack', 'Antonoff');
+INSERT INTO `books_authors` (`book_id`, `author_id`) VALUES (1, 1);
+INSERT INTO `books_authors` (`book_id`, `author_id`) VALUES (1, 2);
+INSERT INTO `books` (`id`, `title`, `year`) VALUES (2, 'evermore', 2021);
+INSERT INTO `books_authors` (`book_id`, `author_id`) VALUES (2, 1);
+INSERT INTO `books` (`id`, `title`, `year`) VALUES (3, 'folklore', 2020);
+INSERT INTO `books_authors` (`book_id`, `author_id`) VALUES (3, 1);
+INSERT INTO `authors` (`id`, `first_name`, `last_name`) VALUES (3, 'Joanne', 'Rowling');
+INSERT INTO `books` (`id`, `title`, `year`) VALUES (4, 'Harry Potter and the Philosopher''s Stone', 2001);
+INSERT INTO `books_authors` (`book_id`, `author_id`) VALUES (4, 3);
+INSERT INTO `authors` (`id`, `first_name`, `last_name`) VALUES (4, 'Jack', 'Antonoff');
